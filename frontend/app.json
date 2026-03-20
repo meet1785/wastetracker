@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "FreshTrack",
+    "slug": "freshtrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#22C55E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.freshtrack.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#22C55E"
+      },
+      "package": "com.freshtrack.app"
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-barcode-scanner",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#22C55E"
+        }
+      ]
+    ]
+  }
+}
